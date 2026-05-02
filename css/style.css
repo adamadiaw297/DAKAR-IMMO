@@ -15,6 +15,7 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* En-tete */
 
 header {
 
@@ -66,12 +67,18 @@ nav {
 
 
 
+
+
+
+
+/* Page index */
+
+
 .hero {
   height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   background-image: url("../Images/Background.jpeg");
   background-size: cover;
   background-position: center;
@@ -185,8 +192,7 @@ nav {
 }
 
 .bloc4 img {
-  border-radius: 12px;
-
+  border-radius: 12px 12px 0px 0px;
 }
 
 .renseignement {
@@ -249,11 +255,199 @@ nav {
 
 
 
+/* Page biens */
+
+.First {
+  background-color: #ededee;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+
+.minihero h1 {
+  color: #1E3A8A;
+}
+
+.minihero p {
+  color: #111827;
+}
+
+.choix {
+  display: flex;
+  gap: 25px;
+}
+
+.choix button {
+  padding: 10px;
+  background-color: white;
+  color: #111827;
+  border: white;
+  border-radius: 10px;
+  width: 100px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.choix button:hover {
+  background-color: #1E3A8A;
+  color: white;
+}
+
+.Second{
+  background-color: #ededee;
+  height: 1100px;
+}
+
+.Parentbloc6{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+.bloc6{
+  background-color: white;
+  width: 30%;
+  height: 500px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 3px black;
+}
+.bloc6 img{
+  border-radius: 12px 12px 0px 0px;
+}
+.information{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 90%;
+  margin: 0 auto;
+}
+.information h2{
+  color: #1E3A8A;
+
+}
+.inf1{
+  color: #111827;
+  font-size: 16px;
+}
+.inf2{
+  color: #F28125;
+  font-size: 20px;
+}
+.inf3{
+  display: flex;
+  gap: 50px;
+  font-size: 16px;
+  color: rgb(84, 75, 75);
+}
+
+.inf4 button{
+  padding: 15px;
+  background-color: #1E3A8A;
+  color: white;
+  border: #1E3A8A;
+  border-radius: 10px;
+  width: 150px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pied de page */
 
 footer {
   background-color: #0F172A;
@@ -308,10 +502,6 @@ footer span {
 .icon a {
   color: #F28125;
 }
-
-
-
-
 
 
 
@@ -373,6 +563,103 @@ footer span {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1024px) {
   .element {
     grid-template-columns: 1fr;
@@ -410,24 +697,25 @@ footer span {
     display: flex;
     gap: 40px;
   }
+
   .box {
-  height: 200px;
-  width: 22%;
-}
+    height: 200px;
+    width: 22%;
+  }
 
   .chiffre {
-  width: 30%;
-  font-size: 30px;
-}
+    width: 30%;
+    font-size: 30px;
+  }
 
-.bilan h1 {
-  font-size: 40px;
-}
+  .bilan h1 {
+    font-size: 40px;
+  }
 
-.bilan {
-  width: 70%;
-  font-size: 18px;
-}
+  .bilan {
+    width: 70%;
+    font-size: 18px;
+  }
 
 
 
@@ -576,24 +864,24 @@ footer span {
     width: 40%;
   }
 
-.box {
-  height: 200px;
-  width: 22%;
-}
+  .box {
+    height: 200px;
+    width: 22%;
+  }
 
   .chiffre {
-  width: 30%;
-  font-size: 30px;
-}
+    width: 30%;
+    font-size: 30px;
+  }
 
-.bilan h1 {
-  font-size: 40px;
-}
+  .bilan h1 {
+    font-size: 40px;
+  }
 
-.bilan {
-  width: 70%;
-  font-size: 18px;
-}
+  .bilan {
+    width: 70%;
+    font-size: 18px;
+  }
 
 
 }
@@ -744,34 +1032,45 @@ footer span {
   }
 
   .Partie4 {
-  width: 90%;
-  height: 500px;
-  margin: 0 auto;
-}
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+  }
 
-.box4 {
-  height: 420px;
-  background-color: #1E3A8A;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
+  .box4 {
+    height: 420px;
+    background-color: #1E3A8A;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
 
-.box {
-  height: 100px;
-  width: 90%;
-}
+  .box {
+    height: 100px;
+    width: 90%;
+  }
 
-.chiffre {
-  width: 30%;
-  font-size: 40px;
-}
+  .chiffre {
+    width: 30%;
+    font-size: 40px;
+  }
 
-.bilan h1 {
-  font-size: 40px;
-}
+  .bilan h1 {
+    font-size: 40px;
+  }
 
-  
+  .choix {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .choix button {
+    padding: 8px;
+  }
+
+
 
 
 
