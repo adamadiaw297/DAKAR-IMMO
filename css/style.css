@@ -79,14 +79,14 @@ nav {
 }
 
 .element {
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 
 .hero h1 {
   font-size: 100px;
   color: #1E3A8A;
-  width: 45%;
+  width: 50%;
   height: 390px;
 }
 
@@ -94,7 +94,7 @@ nav {
   color: #111827;
   font-size: 20px;
   width: 40%;
-  height: 120px;
+  height: 150px;
 }
 
 .boutons {
@@ -220,6 +220,7 @@ nav {
   background-color: #1E3A8A;
   display: flex;
   justify-content: space-evenly;
+  border-radius: 14px;
 }
 
 .box {
@@ -409,6 +410,24 @@ footer span {
     display: flex;
     gap: 40px;
   }
+  .box {
+  height: 200px;
+  width: 22%;
+}
+
+  .chiffre {
+  width: 30%;
+  font-size: 30px;
+}
+
+.bilan h1 {
+  font-size: 40px;
+}
+
+.bilan {
+  width: 70%;
+  font-size: 18px;
+}
 
 
 
@@ -646,19 +665,19 @@ footer span {
   .hero h1 {
     font-size: 45px;
     color: #1E3A8A;
-    width: 80%;
+    width: 95%;
     height: 180px;
   }
 
   .hero p {
     color: #111827;
     font-size: 18px;
-    width: 90%;
-    height: 150px;
+    width: 95%;
+    height: 180px;
   }
 
   .boutons {
-    width: 90%;
+    width: 100%;
     height: 50px;
     display: flex;
     gap: 20px;
