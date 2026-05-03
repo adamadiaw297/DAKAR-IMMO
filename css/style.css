@@ -270,6 +270,7 @@ nav {
 
 .minihero h1 {
   color: #1E3A8A;
+  font-size: 50px;
 }
 
 .minihero p {
@@ -317,6 +318,10 @@ nav {
   height: 500px;
   border-radius: 12px;
   box-shadow: 0px 0px 3px black;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
 }
 
 .bloc6 img {
@@ -365,6 +370,37 @@ nav {
 }
 
 
+
+/* Page services */
+
+.primero {
+  font-size: 100px;
+  height: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.primero div {
+  background-color: #1E3A8A;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.segundo {
+  color: #0F172A;
+  text-align: center;
+}
+
+.tercera {
+  color: #111827;
+  font-size: 18px;
+  text-align: center;
+}
 
 
 
@@ -723,6 +759,7 @@ footer span {
     width: 70%;
     font-size: 18px;
   }
+
   .Second {
     height: 1800px;
   }
@@ -1103,20 +1140,24 @@ footer span {
   }
 
   .Second {
-  height: 3400px;  
-}
+    height: 3400px;
+  }
 
-.Parentbloc6 {
-  width: 100%;
-  margin: 0 auto;
-}
+  .Parentbloc6 {
+    width: 100%;
+    margin: 0 auto;
+  }
 
-.bloc6 {
-  background-color: white;
-  width: 90%;
-  margin: 0 auto;
-  height: 520px;
-}
+  .bloc6 {
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    height: 520px;
+  }
+
+  .minihero h1 {
+    font-size: 30px;
+  }
 
 
 
