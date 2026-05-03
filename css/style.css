@@ -297,12 +297,12 @@ nav {
   color: white;
 }
 
-.Second{
+.Second {
   background-color: #ededee;
   height: 1100px;
 }
 
-.Parentbloc6{
+.Parentbloc6 {
   width: 95%;
   margin: 0 auto;
   display: flex;
@@ -310,43 +310,50 @@ nav {
   justify-content: space-between;
   gap: 30px;
 }
-.bloc6{
+
+.bloc6 {
   background-color: white;
   width: 30%;
   height: 500px;
   border-radius: 12px;
   box-shadow: 0px 0px 3px black;
 }
-.bloc6 img{
+
+.bloc6 img {
   border-radius: 12px 12px 0px 0px;
 }
-.information{
+
+.information {
   display: flex;
   flex-direction: column;
   gap: 8px;
   width: 90%;
   margin: 0 auto;
 }
-.information h2{
+
+.information h2 {
   color: #1E3A8A;
 
 }
-.inf1{
+
+.inf1 {
   color: #111827;
   font-size: 16px;
 }
-.inf2{
+
+.inf2 {
   color: #F28125;
   font-size: 20px;
 }
-.inf3{
+
+.inf3 {
   display: flex;
   gap: 50px;
   font-size: 16px;
   color: rgb(84, 75, 75);
 }
 
-.inf4 button{
+.inf4 button {
   padding: 15px;
   background-color: #1E3A8A;
   color: white;
@@ -716,6 +723,14 @@ footer span {
     width: 70%;
     font-size: 18px;
   }
+  .Second {
+    height: 1800px;
+  }
+
+  .bloc6 {
+    width: 48%;
+    height: 550px;
+  }
 
 
 
@@ -882,6 +897,23 @@ footer span {
     width: 70%;
     font-size: 18px;
   }
+
+  .inf4 button {
+    padding: 10px;
+  }
+
+  .Second {
+    background-color: #ededee;
+    height: 1800px;
+  }
+
+  .bloc6 {
+    width: 46%;
+    height: 550px;
+  }
+
+
+
 
 
 }
@@ -1069,6 +1101,22 @@ footer span {
   .choix button {
     padding: 8px;
   }
+
+  .Second {
+  height: 3400px;  
+}
+
+.Parentbloc6 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bloc6 {
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+  height: 520px;
+}
 
 
 
