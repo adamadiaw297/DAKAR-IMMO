@@ -145,9 +145,10 @@ nav {
   border-radius: 12px;
 
 }
-.B1 a{
-    text-decoration: none;
-      color: white;
+
+.B1 a {
+  text-decoration: none;
+  color: white;
 }
 
 .B2 {
@@ -159,9 +160,10 @@ nav {
   border-radius: 12px;
 
 }
-.B2 a{
-   text-decoration: none;
-      color: white;
+
+.B2 a {
+  text-decoration: none;
+  color: white;
 }
 
 .Partie2 {
@@ -300,22 +302,26 @@ nav {
 
 .First {
   background-color: #ededee;
-  height: 200px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   gap: 30px;
+  background: url("/Images/Background\ service.png") center/cover no-repeat;
+  background-blend-mode: darken;
+  background-color: rgb(0, 0, 0, 0.5);
+
 }
 
 .minihero h1 {
-  color: #1E3A8A;
+  color: #F28125;
   font-size: 50px;
 }
 
 .minihero p {
-  color: #111827;
+  color: #ffffff;
 }
 
 .choix {
@@ -341,15 +347,21 @@ nav {
 
 .Second {
   background-color: #ededee;
-  height: 1100px;
+  height: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .Parentbloc6 {
+
   width: 95%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   gap: 30px;
 }
 
@@ -701,8 +713,9 @@ input {
   align-items: center;
   justify-content: space-between;
 }
-.lepourquoi2{
-    width: 40%;
+
+.lepourquoi2 {
+  width: 40%;
   height: 350px;
 }
 
@@ -1230,7 +1243,7 @@ footer span {
     text-align: start;
   }
 
-    .lepourquoi {
+  .lepourquoi {
     height: 720px;
     display: flex;
     width: 90%;
@@ -1241,15 +1254,17 @@ footer span {
     flex-wrap: wrap;
 
   }
-  .lepourquoi1{
+
+  .lepourquoi1 {
     width: 90%;
   }
-  .lepourquoi2{
-    width: 90%;
-  height: 350px;
-}
 
-  
+  .lepourquoi2 {
+    width: 90%;
+    height: 350px;
+  }
+
+
 }
 
 
@@ -1566,10 +1581,11 @@ footer span {
   .question {
     font-size: 24px;
   }
-    .lepourquoi2{
+
+  .lepourquoi2 {
     width: 95%;
-  height: 300px;
-}
+    height: 300px;
+  }
 
 
 }
