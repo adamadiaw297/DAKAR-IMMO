@@ -143,8 +143,11 @@ nav {
   background-color: #1E3A8A;
   border: #1E3A8A;
   border-radius: 12px;
-  color: white;
 
+}
+.B1 a{
+    text-decoration: none;
+      color: white;
 }
 
 .B2 {
@@ -154,8 +157,11 @@ nav {
   background-color: #F28125;
   border: #F28125;
   border-radius: 12px;
-  color: white;
 
+}
+.B2 a{
+   text-decoration: none;
+      color: white;
 }
 
 .Partie2 {
