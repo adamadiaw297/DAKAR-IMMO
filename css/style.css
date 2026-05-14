@@ -309,7 +309,10 @@ nav {
   flex-direction: column;
   text-align: center;
   gap: 30px;
-  background: url("/Images/Background\ service.png") center/cover no-repeat;
+  background-image: url("/Images/Background\ service.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-blend-mode: darken;
   background-color: rgb(0, 0, 0, 0.5);
 
