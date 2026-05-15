@@ -595,7 +595,7 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("../Images/Hero2.png");
+  background-image: url("/Images/photo\ de\ Salon.png");
   background-blend-mode: darken;
   background-color: rgb(0, 0, 0, 0.5);
   background-size: cover;
