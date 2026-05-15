@@ -310,7 +310,7 @@ nav {
   flex-direction: column;
   text-align: center;
   gap: 30px;
-  background-image: url("/Images/Background\ service.png");
+  background-image: url("../Images/photo\ de\ Salon.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -595,7 +595,7 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("/Images/photo\ de\ Salon.png");
+  background-image: url("../Images/Hero2.png");
   background-blend-mode: darken;
   background-color: rgb(0, 0, 0, 0.5);
   background-size: cover;
