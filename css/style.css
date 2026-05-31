@@ -768,7 +768,8 @@ footer {
   text-decoration: none;
   font-size: 18px;
 }
-.rapidlien{
+
+.rapidlien {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -885,10 +886,12 @@ footer span {
   .logo {
     width: 22%;
   }
-  .contentmenu a{
+
+  .contentmenu a {
     font-size: 17px;
   }
-  .navbar{
+
+  .navbar {
     width: 45%;
   }
 
@@ -913,7 +916,8 @@ footer span {
   .contentmenu a {
     font-size: 15px;
   }
-  .navbar{
+
+  .navbar {
     width: 50%;
   }
 
@@ -1059,6 +1063,8 @@ footer span {
   }
 
   .navbar {
+    width: 90%;
+    margin: 0 auto;
     position: fixed;
     top: 84px;
     left: 16px;
@@ -1301,7 +1307,7 @@ footer span {
 
 
 
-/* Telephobe */
+/* Telephone */
 
 
 @media (max-width: 480px) {
